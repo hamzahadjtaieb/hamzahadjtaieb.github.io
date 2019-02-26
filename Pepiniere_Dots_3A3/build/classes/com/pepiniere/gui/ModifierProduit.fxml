@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="516.0" prefWidth="711.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.pepiniere.controllers.ModifierProduitController">
+   <children>
+      <Label layoutX="46.0" layoutY="256.0" text="Prix" textAlignment="CENTER" />
+      <Label layoutX="42.0" layoutY="205.0" text="Type" textAlignment="CENTER" />
+      <Label layoutX="42.0" layoutY="152.0" text="Nom" textAlignment="CENTER" />
+      <JFXTextField fx:id="txtNom" layoutX="199.0" layoutY="137.0" />
+      <JFXButton fx:id="idmodifier" layoutX="151.0" layoutY="477.0" onAction="#modifier_produit" text="Modifier" />
+      <JFXTextField fx:id="txtType" layoutX="199.0" layoutY="196.0" />
+      <JFXTextField fx:id="txtprix" layoutX="199.0" layoutY="245.0" />
+      <JFXButton layoutX="520.0" layoutY="465.0" onAction="#uploadphoto" text="Upload" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#5ecd67" height="324.0" layoutX="425.0" layoutY="84.0" opacity="0.17" stroke="WHITE" strokeType="INSIDE" width="272.0" />
+      <ImageView fx:id="imageproduit" fitHeight="301.0" fitWidth="248.0" layoutX="437.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="50.0" fitWidth="52.0" layoutX="536.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../Desktop/Photo%20pidev/photo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="32.0" layoutY="313.0" text="Quantite :" textAlignment="CENTER" />
+      <JFXTextField fx:id="txtquantiteM" layoutX="201.0" layoutY="306.0" />
+      <Label layoutX="28.0" layoutY="366.0" text="Vendu Par :" textAlignment="CENTER" />
+      <JFXTextField fx:id="txtvenduparM" layoutX="201.0" layoutY="359.0" />
+      <Text layoutX="32.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Id Produit" />
+      <JFXTextField fx:id="txtidproduit" layoutX="199.0" layoutY="84.0" />
+   </children>
+</AnchorPane>

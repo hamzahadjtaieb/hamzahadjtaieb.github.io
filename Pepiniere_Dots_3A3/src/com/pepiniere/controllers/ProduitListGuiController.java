@@ -69,6 +69,8 @@ public class ProduitListGuiController implements Initializable {
     private JFXButton prixAsc;
     @FXML
     private JFXButton prixDesc;
+    @FXML
+    private Button AdminButton;
     
     
     
@@ -235,6 +237,18 @@ List.setItems(data.sorted(Comparator.comparing(p -> -p.getPrix_produit())));
 
 
     }
+
+    static Stage stg;
+    @FXML
+    private void goAdmin(ActionEvent event) throws IOException {
+        
+            FXMLLoader detail = new FXMLLoader(getClass().getResource("/com/pepiniere/gui/AdminPanel.fxml"));
+            Parent root2 = (Parent) detail.load();
+            Stage stage1 = new Stage();
+            stage1.setScene(new Scene(root2));
+            stage1.show();
+    }
+
     
     
     

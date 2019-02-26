@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="343.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.pepiniere.controllers.AdminPanelController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcd6900c" height="400.0" stroke="BLACK" strokeType="INSIDE" width="344.0" />
+      <JFXButton fx:id="idconnect" layoutX="134.0" layoutY="326.0" onAction="#idconnectAdmin" text="Connect" />
+      <Text layoutX="89.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login" />
+      <Text layoutX="88.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mot de Passe" />
+      <TextField layoutX="85.0" layoutY="190.0" />
+      <TextField layoutX="85.0" layoutY="255.0" />
+      <Circle fill="#98d9522e" layoutX="165.0" layoutY="80.0" radius="23.0" stroke="BLACK" strokeType="INSIDE" />
+      <Text fill="#4502ff" layoutX="86.0" layoutY="299.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mot de Passe oublie" />
+      
+   </children>
+</AnchorPane>

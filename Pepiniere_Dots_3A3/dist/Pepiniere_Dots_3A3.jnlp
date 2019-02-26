@@ -8,7 +8,8 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="Pepiniere_Dots_3A3.jar" size="246135" download="eager" />
+    <jar href="Pepiniere_Dots_3A3.jar" size="146577" download="eager" />
+    <jar href="lib\Bulk_SMS_Library.jar" size="3292" download="eager" />
     <jar href="lib\GMapsFX-2.0.9.jar" size="166541" download="eager" />
     <jar href="lib\JavaVichUploaderAPI.jar" size="28278" download="eager" />
     <jar href="lib\TrayTester.jar" size="52070" download="eager" />
@@ -44,6 +45,7 @@
     <jar href="lib\httpmime-4.2.1.jar" size="26598" download="eager" />
     <jar href="lib\imap.jar" size="172582" download="eager" />
     <jar href="lib\itextpdf-5.1.0.jar" size="1614453" download="eager" />
+    <jar href="lib\itextpdf-5.4.1.jar" size="1898417" download="eager" />
     <jar href="lib\java-json.jar" size="84697" download="eager" />
     <jar href="lib\javamail-1.4.5.jar" size="507849" download="eager" />
     <jar href="lib\javax.mail-1.5.1.jar" size="545362" download="eager" />
@@ -54,6 +56,7 @@
     <jar href="lib\jfoenix.jar" size="2183063" download="eager" />
     <jar href="lib\jfreechart-1.0.13.jar" size="1425742" download="eager" />
     <jar href="lib\jfreechart.jar" size="1044877" download="eager" />
+    <jar href="lib\jfxrt.jar" size="15101401" download="eager" />
     <jar href="lib\json-simple-1.1.1.jar" size="23737" download="eager" />
     <jar href="lib\json-smart-1.1.1.jar" size="51484" download="eager" />
     <jar href="lib\mail-1.4.7.jar" size="521157" download="eager" />
