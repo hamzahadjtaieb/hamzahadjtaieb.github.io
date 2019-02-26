@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="gridPane" prefHeight="312.0" prefWidth="733.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="Categorie" layoutX="202.0" layoutY="14.0" text="Categorie">
+         <font>
+            <Font name="System Bold Italic" size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="status" layoutX="665.0" layoutY="175.0" text="Status" />
+      <Label fx:id="nomproduit" layoutX="204.0" layoutY="48.0" prefHeight="51.0" prefWidth="127.0" text="Nom Produit" />
+      <Label fx:id="description" layoutX="205.0" layoutY="86.0" prefHeight="72.0" prefWidth="470.0" text="Description" textAlignment="CENTER" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#653939" height="48.0" layoutY="210.0" stroke="WHITE" strokeType="INSIDE" width="725.0" />
+      <Text fill="WHITE" layoutX="448.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Qte Souhaite" textAlignment="CENTER" wrappingWidth="114.205078125">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="564.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total" textAlignment="CENTER" wrappingWidth="169.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="284.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Qte Disponible" textAlignment="CENTER" wrappingWidth="132.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="142.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vendu Par" textAlignment="CENTER" wrappingWidth="102.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="30.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nom" textAlignment="CENTER" wrappingWidth="54.123046875">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Button fx:id="id_ajouterpanier" layoutX="689.0" layoutY="61.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="27.0" text="P" textOverrun="WORD_ELLIPSIS">
+         <effect>
+            <Glow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="27.0" fitWidth="28.0" layoutX="205.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../Users/AMZA/Desktop/Photo%20pidev/prix.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="prix" layoutX="244.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prix">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <JFXButton fx:id="comparateur" layoutX="688.0" layoutY="16.0" text="C" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#000000e3" height="3.0" layoutX="71.0" layoutY="306.0" stroke="WHITE" strokeType="INSIDE" width="610.0">
+         <effect>
+            <Glow />
+         </effect>
+      </Rectangle>
+      <Text fx:id="vendupar" layoutX="155.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="vendupar" wrappingWidth="87.005859375" />
+      <Text fx:id="nom" layoutX="37.0" layoutY="278.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nom" />
+      <Text fx:id="quantite" layoutX="317.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quantite" />
+      <JFXButton fx:id="plus" layoutX="521.0" layoutY="258.0" prefHeight="25.0" prefWidth="27.0" text="+" />
+      <JFXButton fx:id="moins" layoutX="446.0" layoutY="257.0" text="-" />
+      <TextField fx:id="quantiteSouh" disable="true" editable="false" layoutX="485.0" layoutY="258.0" prefHeight="27.0" prefWidth="27.0" />
+      <Text fx:id="total" layoutX="632.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total" />
+      <ImageView fitHeight="33.0" fitWidth="27.0" layoutX="349.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../Users/AMZA/Desktop/Photo%20pidev/type.png" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="rectangle" arcHeight="5.0" arcWidth="5.0" height="185.0" layoutX="8.0" layoutY="8.0" stroke="BLACK" strokeType="INSIDE" width="169.0" />
+
+   </children>
+</AnchorPane>
